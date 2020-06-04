@@ -5,7 +5,7 @@
 	 * 階乗とは、1からその与えられた自然数までの数をすべてかけたものです
 	 * @param {Number} n
 	 * @returns {Number}
-	 */
+	 */test
 	function factorial(n) {
 		let result = 1;
 		for (let i = 1; i <= n; i++) {
@@ -21,3 +21,4 @@
 	assert.equal(factorial(10), 3628800, `10の階乗は3628800ですが、実際は${factorial(10) }でした`);
 	console.log('すべてのテストを通過しました');
 })();
+
